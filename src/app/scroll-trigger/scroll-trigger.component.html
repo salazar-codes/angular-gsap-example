@@ -1,1 +1,28 @@
-<p>scroll-trigger works!</p>
+<div class="w-full h-screen flex justify-center">
+  <div class="container mx-auto p-8 flex flex-col justify-center items-center">
+    <h1 class="text-4xl text-center font-semibold mb-12">GSAP ScrollTrigger Opposing Lateral Sections</h1>
+    <p class="text-lg font-medium mb-8">The second section has two panels with a height bigger than the screen and they move in opposing directions.</p>
+  </div>
+</div>
+<div class="w-full h-screen overflow-hidden flex" #verticalContainer>
+  <div class="w-1/2 h-[400vh] left-section">
+    <div class="w-full h-screen bg-orange-700 flex items-center justify-center text-6xl font-semibold">1</div>
+    <div class="w-full h-screen bg-fuchsia-700 flex items-center justify-center text-6xl font-semibold">2</div>
+    <div class="w-full h-screen bg-teal-700 flex items-center justify-center text-6xl font-semibold">3</div>
+    <div class="w-full h-screen bg-indigo-700 flex items-center justify-center text-6xl font-semibold">4</div>
+  </div>
+  <div class="w-1/2 h-[400vh] right-section">
+    <div class="w-full h-screen bg-pink-700 flex items-center justify-center text-6xl font-semibold">5</div>
+    <div class="w-full h-screen bg-orange-700 flex items-center justify-center text-6xl font-semibold">6</div>
+    <div class="w-full h-screen bg-red-700 flex items-center justify-center text-6xl font-semibold">7</div>
+    <div class="w-full h-screen bg-yellow-700 flex items-center justify-center text-6xl font-semibold">8</div>
+  </div>
+</div>
+<section class="w-full h-screen flex justify-center items-center bg-gray-800 text-white px-4 py-2">
+  <h1 class="text-4xl text-center font-semibold mb-12">Enjoy!!!</h1>
+</section>
+<header>
+  <a href="https://greensock.com/scrolltrigger">
+    <img class="greensock-icon" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/scroll-trigger-logo-light.svg" width="200" height="64" />
+  </a>
+</header>

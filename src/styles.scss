@@ -1,6 +1,19 @@
 /* You can add global styles to this file, and also import other style files */
 /* FOR <app-scroll-trigger-apple>*/
+// body {
+//   height: 300vh;
+//   background: #000;
+// }
+
+
+// FOR <app-scroll-trigger-bg-colors>
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
 body {
-  height: 300vh;
-  background: #000;
+  background-color: blue;
+  color: white;
 }

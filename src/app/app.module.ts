@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { ScrollTriggerComponent } from './scroll-trigger/scroll-trigger.component';
 import { FadeInComponent } from './fade-in/fade-in.component';
 import { ScrollTriggerAppleComponent } from './scroll-trigger-apple/scroll-trigger-apple.component';
+import { ScrollTriggerBgColorsComponent } from './scroll-trigger-bg-colors/scroll-trigger-bg-colors.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ScrollTriggerComponent,
     FadeInComponent,
-    ScrollTriggerAppleComponent
+    ScrollTriggerAppleComponent,
+    ScrollTriggerBgColorsComponent
   ],
   imports: [
     BrowserModule,

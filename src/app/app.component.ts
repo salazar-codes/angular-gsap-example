@@ -1,5 +1,6 @@
 import { Component, ElementRef, ViewChild } from '@angular/core';
 import { gsap } from 'gsap';
+import { INIT_ANIMATION_FADE_IN } from '../constants/animations-config';
 
 @Component({
   selector: 'app-root',
@@ -9,18 +10,11 @@ import { gsap } from 'gsap';
 export class AppComponent {
   @ViewChild('box', { static: true }) box!: ElementRef<HTMLDivElement>;
 
-  INIT_ANIMATION_FADE_IN = {
-    delay: 0.2,
-    duration: 0.8,
-    opacity: 0,
-    y: -20,
-  };
-
   ngOnInit(): void {
     this.initAnimations();
   }
 
   initAnimations(): void {
-    gsap.from(this.box.nativeElement, this.INIT_ANIMATION_FADE_IN);
+    gsap.from(this.box.nativeElement, INIT_ANIMATION_FADE_IN);
   }
 }
